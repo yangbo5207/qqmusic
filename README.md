@@ -1,4 +1,24 @@
+# qqmusic
 
+> qq music app by vue
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 #### 注意
 
@@ -12,4 +32,10 @@
 
 4. 开发代码我们将主要在develop分支上进行，各自负责的功能将单独在不同的分支上进行，每个人会负责维护各自的专属分支，请不要对其他成员的专属分支进行任何修改。
 
-5. 其他注意项待定。
+5. 开发中遇到的问题以及最终的解决方案，请提交到issue中，方便成员帮助解答，以及保存起来供相互学习。
+
+6. 我们将统一使用ES6进行开发，还不熟悉ES6语法的请自己花时间学习，参考 http://www.jianshu.com/p/cfb0893c34f1
+
+7. 请统一在自己的开发工具中安装eslint插件，开发的最终代码确保没有任何异常提示和报错。
+
+8. git操作推荐安装一种可视化工具，方便查看提交与修改 https://git-scm.com/download/gui/windows
