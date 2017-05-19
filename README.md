@@ -1,4 +1,24 @@
+# qqmusic
 
+> qq music app by vue
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 #### 注意
 
@@ -18,4 +38,4 @@
 
 7. 请统一在自己的开发工具中安装eslint插件，开发的最终代码确保没有任何异常提示和报错。
 
-8. git操作推荐安装一种可视化工具，方便查看提交与修改  https://git-scm.com/download/gui/windows
+8. git操作推荐安装一种可视化工具，方便查看提交与修改 https://git-scm.com/download/gui/windows
