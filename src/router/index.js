@@ -4,12 +4,12 @@ import Hello from '@/components/Hello'
 
 Vue.use(Router)
 
-export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Hello',
-      component: Hello
-    }
-  ]
+const Index = new Router({
+    routes: [{
+        path: '/',
+        name: 'Hello',
+        component: Hello
+    }]
 })
+
+export default Index
