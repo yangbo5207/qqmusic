@@ -7,7 +7,7 @@
         <ul>
             <li v-for="todo in todos">{{ todo.text }}</li>
         </ul>
-        <button v-on:click="counter += 1">{{ counter }}</button>
+        <button @click="counter += 1">{{ counter }}</button>
         <Child message="Hello child!" />
         <Other trans="smg" />
 
@@ -68,6 +68,16 @@
     import exampleSlot1 from './exampleSlot1'
     import exampleSlot2 from './exampleSlot2'
     import exampleSlot3 from './exampleSlot3'
+    import * as request from '../utils/request'
+
+    request.getHotSearchKeysmod().then(resp => {
+        // 在使用时，通过这样方式拿到数据即可
+        console.log(resp)
+    })
+
+    request.getRecomList().then(resp => {
+        console.log(resp)
+    })
 
     const data = {
         msg: 'this is qq music web app',
