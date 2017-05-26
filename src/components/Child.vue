@@ -3,14 +3,16 @@
 </template>
 
 <script>
-    export default {
-        name: 'child',
-        props: {
-            message: String
-        }
+
+export default {
+    name: 'child',
+    props: {
+        message: String
     }
+}
+
 </script>
 
 <style lang="scss" scoped>
-    @import './style.scss';
+    @import './style';
 </style>

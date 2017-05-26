@@ -61,7 +61,7 @@
 </template>
 
 <script>
-    import Child from './Child'
+    import Child from 'components/Child'
     import Other from './Other'
     import Counter from './Counter'
     import exampleSlot0 from './exampleSlot0'
