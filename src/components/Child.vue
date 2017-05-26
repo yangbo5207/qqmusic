@@ -1,5 +1,5 @@
 <template>
-    <span>{{ message }}</span>
+    <span class="reds">{{ message }}</span>
 </template>
 
 <script>
@@ -10,3 +10,7 @@
         }
     }
 </script>
+
+<style lang="scss" scoped>
+    @import './style.scss';
+</style>
