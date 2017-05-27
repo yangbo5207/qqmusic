@@ -57,7 +57,6 @@
 
         <component v-bind:is="currentComponent" message="hade"></component>
     </div>
-
 </template>
 
 <script>
