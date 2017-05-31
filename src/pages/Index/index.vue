@@ -36,6 +36,9 @@ export default {
             this.shoubomv = resp.shoubomv
             this.toplist = resp.toplist
         })
+    },
+    mounted () {
+        console.log(this.$el)
     }
 }
 
