@@ -2,9 +2,15 @@
 
 <div id="app">
     <nav>
-        <router-link to="/">主页</router-link>
-        <router-link to="/profile">我的</router-link>
-        <router-link to="/discover">发现</router-link>
+        <router-link
+            v-for="(tab, i) in tabs"
+            :to="tab.path"
+            :class="{active: index === i}"
+            @click.native="linkTo(i)"
+            key="{i}"
+        >
+            {{ tab.title }}
+        </router-link>
     </nav>
      <div class="content">
         <transition name="slide-fade">
@@ -19,7 +25,22 @@
 <script>
 
 export default {
-    name: 'app'
+    name: 'app',
+    data () {
+        return {
+            tabs: [
+                { path: '/', title: '主页' },
+                { path: '/profile', title: '我的' },
+                { path: '/discover', title: '发现' }
+            ],
+            index: 0
+        }
+    },
+    methods: {
+        linkTo (index) {
+            this.index = index
+        }
+    }
 }
 
 </script>

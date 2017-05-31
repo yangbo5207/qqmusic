@@ -7,7 +7,12 @@ nav {
     align-items: center;
     border-bottom: 1px solid #EFEFEF;
 
-    a {}
+    a {
+        &.active {
+            color: orange;
+            border-bottom: 2px solid orange
+        }
+    }
 }
 
 .slide-fade-enter {
