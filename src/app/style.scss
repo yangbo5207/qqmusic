@@ -8,6 +8,9 @@ nav {
     border-bottom: 1px solid #EFEFEF;
 
     a {
+        height: 100%;
+        line-height: 50px;
+        padding: 0 5px;
         &.active {
             color: orange;
             border-bottom: 2px solid orange
@@ -30,7 +33,7 @@ nav {
 
 .content {
     position: relative;
-    .test {
+    .page-wrap {
         position: absolute;
         top: 0;
         left: 0;

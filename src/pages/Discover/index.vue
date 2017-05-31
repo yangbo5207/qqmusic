@@ -1,6 +1,6 @@
 <template>
 
-<div class="test">发现模块</div>
+<div class="page-wrap">发现模块</div>
 
 </template>
 

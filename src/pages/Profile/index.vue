@@ -1,6 +1,6 @@
 <template>
 
-<div class="test">this is profile component</div>
+<div class="page-wrap">this is profile component</div>
 
 </template>
 

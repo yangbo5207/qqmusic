@@ -15,6 +15,6 @@ export default function (url, options) {
             name: options.jsonpCallback || '__jp',
             timeout: options.timeout || 60000,
             prefix: options.prefix || '__jp'
-        }, (error, data) => data ? resolve(data) : reject(error))
+        }, (error, data) => data ? resolve(data.data) : reject(error))
     })
 }
