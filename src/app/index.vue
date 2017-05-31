@@ -6,7 +6,7 @@
         <router-link to="/profile">我的</router-link>
         <router-link to="/discover">发现</router-link>
     </nav>
-    <div class="content">
+     <div class="content">
         <transition name="slide-fade">
             <router-view></router-view>
         </transition>
@@ -24,6 +24,6 @@ export default {
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     @import "./style"
 </style>

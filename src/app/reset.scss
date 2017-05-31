@@ -1,0 +1,58 @@
+html, body, #app {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #333333;
+    font-family: "Avenir", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.6;
+}
+
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+input,
+select,
+div,
+a,
+button {
+    outline: none;
+    appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+}

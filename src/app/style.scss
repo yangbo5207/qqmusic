@@ -1,8 +1,13 @@
-#app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 20px;
+@import "./reset";
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid #EFEFEF;
+
+    a {}
 }
 
 .slide-fade-enter {
@@ -24,5 +29,6 @@
         position: absolute;
         top: 0;
         left: 0;
+        width: 100%;
     }
 }
