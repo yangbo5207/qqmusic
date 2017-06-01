@@ -94,6 +94,12 @@ export default {
         target.addEventListener('touchmove', this.handlerMousemove, false)
         target.addEventListener('touchend', this.handlerMouseup, false)
     },
+    destory () {
+        const target = this.$el.children[0]
+        target.removeEventListener('touchstart', this.handlerMousedown, false)
+        target.removeEventListener('touchmove', this.handlerMousemove, false)
+        target.removeEventListener('touchend', this.handlerMouseup, false)
+    },
     methods: {
         handlerMousedown (event) {
             if (this.isAnimation) {
