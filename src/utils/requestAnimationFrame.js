@@ -33,3 +33,7 @@ export const getTransform = () => {
 
     return styleTransform
 }
+
+export const getStyle = (elem, name) => {
+    return elem.currentStyle ? elem.currentStyle[name] : document.defaultView.getComputedStyle(elem, false)[name]
+}

@@ -1,6 +1,7 @@
 <template>
 
 <div class="page-wrap">
+    <slider :pages="focus"></slider>
     <div class="title">this is a test component.</div>
     <div class="test">{{ message }}</div>
     <div class="counter">{{ counter }}</div>
@@ -11,6 +12,7 @@
 
 <script>
 import * as request from 'utils/request'
+import slider from 'components/slider'
 
 export default {
     name: 'index',
@@ -23,6 +25,7 @@ export default {
             toplist: [] // 排行榜
         }
     },
+    components: { slider },
     computed: {
         counter () {
             return 20 + 30
@@ -31,14 +34,18 @@ export default {
     created () {
         request.getRecomList().then(resp => {
             console.log(resp)
-            this.focus = resp.focus
+            this.focus = resp.focus.map(item => {
+                return {
+                    url: item.jumpurl,
+                    style: {
+                        backgroundImage: `url(${item.pic})`
+                    }
+                }
+            })
             this.hotdissList = resp.hotdiss.list
             this.shoubomv = resp.shoubomv
             this.toplist = resp.toplist
         })
-    },
-    mounted () {
-        console.log(this.$el)
     }
 }
 
