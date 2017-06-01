@@ -36,7 +36,7 @@ export default {
             console.log(resp)
             this.focus = resp.focus.map(item => {
                 return {
-                    url: item.jumpurl,
+                    url: item.jumpurl ? item.jumpurl : `https://y.qq.com/n/yqq/album/${item.id}.html`,
                     style: {
                         backgroundImage: `url(${item.pic})`
                     }
