@@ -14,7 +14,7 @@
     </nav>
      <div class="content">
         <transition name="slide-fade">
-            <router-view></router-view>
+            <router-view keep-alive></router-view>
         </transition>
     </div>
 </div>
