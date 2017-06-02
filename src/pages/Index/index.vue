@@ -2,9 +2,7 @@
 
 <div class="page-wrap">
     <slider :pages="focus"></slider>
-    <div class="title">this is a test component.</div>
-    <div class="test">{{ message }}</div>
-    <div class="counter">{{ counter }}</div>
+    <album></album>
 </div>
 
 
@@ -13,6 +11,7 @@
 <script>
 import * as request from 'utils/request'
 import slider from 'components/slider'
+import album from './album'
 
 export default {
     name: 'index',
@@ -25,7 +24,7 @@ export default {
             toplist: [] // 排行榜
         }
     },
-    components: { slider },
+    components: { slider, album },
     computed: {
         counter () {
             return 20 + 30
@@ -45,15 +44,11 @@ export default {
             this.shoubomv = resp.shoubomv
             this.toplist = resp.toplist
         })
-
-        request.getAlbumList().then(resp => {
-            console.log(resp)
-        })
     }
 }
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import './style'
 </style>

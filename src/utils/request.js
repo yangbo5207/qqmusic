@@ -40,16 +40,18 @@ const defaultConfig = {
     year: 1,
     pay: 0,
     type: -1,
-    company: -1
+    company: -1,
+    sort: 1
 }
-export const getAlbumList = (options = defaultConfig) => {
+export const getAlbumList = (options) => {
+    options = { ...defaultConfig, ...options }
     return jsonp(API.albumList, {
         params: {
             jsonpCallback: 'GetAlbumListJsonCallback',
             cmd: options.cmd,
             page: options.page,
             pagesize: options.pagesize || 20,
-            sort: 1,
+            sort: options.sort,
             language: options.language,
             genre: options.genre,
             year: options.year,

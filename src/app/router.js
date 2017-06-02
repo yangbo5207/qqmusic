@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from 'pages/Index'
 import Profile from 'pages/Profile'
 import Discover from 'pages/Discover'
+import Album from 'pages/Album'
 
 Vue.use(Router)
 
@@ -19,6 +20,10 @@ const router = new Router({
         path: '/discover',
         name: 'Discover',
         component: Discover
+    }, {
+        path: '/album',
+        name: 'Album',
+        component: Album
     }]
 })
 

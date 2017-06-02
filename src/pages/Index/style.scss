@@ -1,0 +1,45 @@
+.album-container {
+    margin-top: 20px;
+
+    .album-header {
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .link {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #ccc;
+    }
+
+    .album-body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .album-item-box {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+
+    .album-cover {
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .info-mask {
+        padding-left: 10px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .album-name {
+        font-size: 14px;
+        color: #000;
+    }
+}

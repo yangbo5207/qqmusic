@@ -100,3 +100,8 @@ JSONP https://c.y.qq.com/v8/fcg-bin/album_library
   2067: 林暐哲音乐   
   16800: NHN BUGS   
   1431: Genie Music  
+
++ `sort` 排序
+
+  1: 最新  
+  2: 最热
