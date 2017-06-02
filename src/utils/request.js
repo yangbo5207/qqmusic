@@ -8,23 +8,13 @@ export const getHotSearchKeysmod = () => {
     return jsonp(API.hotSearchKeysmod, {
         // 暂时未确认那些参数可以动态传进来，所以先写死
         params: {
-            g_tk: '5381',
-            jsonpCallback: 'hotSearchKeysmod_top_search',
-            loginUin: 0,
-            hostUin: 0,
-            format: 'jsonp',
-            inCharset: 'utf8',
-            outCharset: 'utf-8',
-            notice: 0,
-            platform: 'yqq',
-            needNewCode: 0
-        },
-        jsonpCallback: 'hotSearchKeysmod_top_search'
+            jsonpCallback: 'hotSearchKeysmod_top_search'
+        }
     })
 }
 
 /**
- * 获取排行榜信息
+ * banner推荐
  */
 export const getRecomList = () => {
     return jsonp(API.recomList, {
@@ -33,17 +23,39 @@ export const getRecomList = () => {
             page: 'other',
             callback: 'GetRecomListCallback5053087508676672',
             rnd: '5053087508676672',
-            g_tk: '5381',
-            jsonpCallback: 'GetRecomListCallback5053087508676672',
-            loginUin: 0,
-            hostUin: 0,
-            format: 'jsonp',
-            inCharset: 'utf8',
-            outCharset: 'GB2312',
-            notice: 0,
-            platform: 'yqq',
-            needNewCode: 0
-        },
-        jsonpCallback: 'GetRecomListCallback5053087508676672'
+            jsonpCallback: 'GetRecomListCallback5053087508676672'
+        }
+    })
+}
+
+/**
+ * 新歌速递列表
+ */
+const defaultConfig = {
+    cmd: 'firstpage',
+    page: 0,
+    pagesize: 20,
+    language: -1,
+    genre: 0,
+    year: 1,
+    pay: 0,
+    type: -1,
+    company: -1
+}
+export const getAlbumList = (options = defaultConfig) => {
+    return jsonp(API.albumList, {
+        params: {
+            jsonpCallback: 'GetAlbumListJsonCallback',
+            cmd: options.cmd,
+            page: options.page,
+            pagesize: options.pagesize || 20,
+            sort: 1,
+            language: options.language,
+            genre: options.genre,
+            year: options.year,
+            pay: options.pay,
+            type: options.type,
+            company: options.company
+        }
     })
 }

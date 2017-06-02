@@ -33,7 +33,6 @@ export default {
     },
     created () {
         request.getRecomList().then(resp => {
-            console.log(resp)
             this.focus = resp.focus.map(item => {
                 return {
                     url: item.jumpurl ? item.jumpurl : `https://y.qq.com/n/yqq/album/${item.id}.html`,
@@ -45,6 +44,10 @@ export default {
             this.hotdissList = resp.hotdiss.list
             this.shoubomv = resp.shoubomv
             this.toplist = resp.toplist
+        })
+
+        request.getAlbumList().then(resp => {
+            console.log(resp)
         })
     }
 }
