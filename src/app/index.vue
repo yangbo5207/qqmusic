@@ -1,6 +1,6 @@
 <template>
 
-<div id="app">
+<div class="index-container">
     <nav>
         <router-link
             v-for="(tab, i) in tabs"
@@ -17,7 +17,6 @@
             <router-view></router-view>
         </transition>
     </div>
-
 </div>
 
 </template>
@@ -29,7 +28,7 @@ export default {
     data () {
         return {
             tabs: [
-                { path: '/', title: '主页' },
+                { path: '/index', title: '主页' },
                 { path: '/profile', title: '我的' },
                 { path: '/discover', title: '发现' }
             ],
