@@ -18,17 +18,17 @@ nav {
     }
 }
 
-.slide-fade-enter {
-    opacity: 0;
-    transform: translateX(-30px);
-}
-
-.slide-fade-enter-active, .slide-fade-leave-active {
-    transition: all .5s ease;
-}
-
-.slide-fade-leave {
-    opacity: 0;
+.slide-fade {
+    &-enter {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    &-enter-active, &-leave-active {
+        transition: all .5s ease;
+    }
+    &-leave {
+        opacity: 0;
+    }
 }
 
 .content {
