@@ -43,3 +43,38 @@
         color: #000;
     }
 }
+
+.hotdiss-container {
+    margin-top: 20px;
+    .hotdiss-header {
+        height: 40px;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+    .hotdiss-body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .hotdiss-item-box {
+        margin-bottom: 20px;
+        width: 49.5%;
+    }
+    .diss-cover {
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .info-mask {
+        padding-left: 10px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .diss-name {
+        font-size: 14px;
+        color: #000;
+
+    }
+}
