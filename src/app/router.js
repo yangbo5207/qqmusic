@@ -5,6 +5,7 @@ import Index from 'pages/Index'
 import Profile from 'pages/Profile'
 import Discover from 'pages/Discover'
 import Album from 'pages/Album'
+import Mv from 'pages/Mv'
 
 Vue.use(Router)
 
@@ -31,6 +32,10 @@ const router = new Router({
         path: '/album',
         name: 'Album',
         component: Album
+    }, {
+        path: '/mv',
+        name: 'mv',
+        component: Mv
     }]
 })
 

@@ -4,6 +4,7 @@
     <slider :pages="focus"></slider>
     <album></album>
     <hotdiss :disslist="hotdissList"></hotdiss>
+    <shoubomv :mvlist="shoubomv"></shoubomv>
 </div>
 
 
@@ -14,6 +15,7 @@ import * as request from 'utils/request'
 import slider from 'components/slider'
 import album from './album'
 import hotdiss from './hotdiss'
+import shoubomv from './shoubomv'
 
 export default {
     name: 'index',
@@ -26,7 +28,7 @@ export default {
             toplist: [] // 排行榜
         }
     },
-    components: { slider, album, hotdiss },
+    components: { slider, album, hotdiss, shoubomv },
     computed: {
         counter () {
             return 20 + 30
@@ -49,7 +51,12 @@ export default {
                 }
                 return item
             })
-            this.shoubomv = resp.shoubomv
+            this.shoubomv = resp.shoubomv.all.map(item => {
+                item.style = {
+                    backgroundImage: `url(${item.picurl})`
+                }
+                return item
+            })
             this.toplist = resp.toplist
         })
     }
