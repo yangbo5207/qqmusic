@@ -9,14 +9,14 @@
     </div>
     <div class="shoubomv-body">
         <div class="shoubomv-item-box" v-for="item in mvlist">
-            <router-link to="/">
+            <a :href="item.url">
                 <div class="mv-cover" :style="item.style"></div>
                 <div class="info-mask">
                     <div class="mv-title">{{ item.mvtitle }}</div>
                     <div class="mv-singer">{{ item.singer_name }}</div>
                     <div class="listennum">已播放{{item.listennum}}次</div>
                 </div>
-            </router-link>
+            </a>
         </div>
     </div>
 </div>

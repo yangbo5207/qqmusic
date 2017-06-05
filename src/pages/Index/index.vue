@@ -55,6 +55,7 @@ export default {
                 item.style = {
                     backgroundImage: `url(${item.picurl})`
                 }
+                item.url = `https://y.qq.com/n/yqq/mv/v/${item.vid}.html`
                 return item
             })
             this.toplist = resp.toplist
