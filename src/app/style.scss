@@ -1,0 +1,42 @@
+@import "./reset";
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid #EFEFEF;
+
+    a {
+        height: 100%;
+        line-height: 50px;
+        padding: 0 5px;
+        &.active {
+            color: orange;
+            border-bottom: 2px solid orange
+        }
+    }
+}
+
+.slide-fade {
+    &-enter {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    &-enter-active, &-leave-active {
+        transition: all .5s ease;
+    }
+    &-leave {
+        opacity: 0;
+    }
+}
+
+.content {
+    position: relative;
+    .page-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
