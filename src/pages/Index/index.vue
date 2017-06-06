@@ -1,13 +1,13 @@
 <template>
 
 <div class="page-wrap">
+    <router-link to="/search" class="search-box-wrap"><div class="search-box"><icon class="search-icon" type="search" />搜索</div></router-link>
     <slider :pages="focus" />
     <classes />
     <album />
     <hotdiss :disslist="hotdissList" />
     <shoubomv :mvlist="shoubomv" />
 </div>
-
 
 </template>
 
@@ -18,6 +18,7 @@ import album from './album'
 import hotdiss from './hotdiss'
 import shoubomv from './shoubomv'
 import classes from './classes'
+import icon from 'components/icon'
 
 export default {
     name: 'index',
@@ -30,7 +31,7 @@ export default {
             toplist: [] // 排行榜
         }
     },
-    components: { slider, album, hotdiss, shoubomv, classes },
+    components: { slider, album, hotdiss, shoubomv, classes, icon },
     computed: {
         counter () {
             return 20 + 30

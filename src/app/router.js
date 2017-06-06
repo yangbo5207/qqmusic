@@ -10,6 +10,7 @@ import Classify from 'pages/Classify'
 import Rank from 'pages/Rank'
 import Singer from 'pages/Singer'
 import Diantai from 'pages/Diantai'
+import search from 'pages/search'
 
 Vue.use(Router)
 
@@ -56,6 +57,10 @@ const router = new Router({
         path: '/Diantai',
         name: 'diantai',
         component: Diantai
+    }, {
+        path: '/search',
+        name: 'search',
+        component: search
     }]
 })
 

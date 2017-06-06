@@ -1,3 +1,26 @@
+.search-box-wrap {
+    background-color: #31c27c;
+    display: block;
+    padding: 1px;
+
+    .search-box {
+        margin: 5px;
+        height: 40px;
+        background-color: #2baa6d;
+        border-radius: 4px;
+        color: #FFF;
+        text-align: center;
+        line-height: 40px;
+
+        .search-icon {
+            font-size: 20px;
+            margin-right: 10px;
+            position: relative;
+            top: 2px;
+        }
+    }
+}
+
 .album-container {
     margin-top: 20px;
 
