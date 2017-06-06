@@ -1,0 +1,120 @@
+.album-container {
+    margin-top: 20px;
+
+    .album-header {
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .link {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #ccc;
+    }
+
+    .album-body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .album-item-box {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+
+    .album-cover {
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .info-mask {
+        padding-left: 10px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .album-name {
+        font-size: 14px;
+        color: #000;
+    }
+}
+
+.hotdiss-container {
+    margin-top: 20px;
+    .hotdiss-header {
+        height: 40px;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+    .hotdiss-body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .hotdiss-item-box {
+        margin-bottom: 20px;
+        width: 49.5%;
+    }
+    .diss-cover {
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .info-mask {
+        padding-left: 10px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .diss-name {
+        font-size: 14px;
+        color: #000;
+    }
+}
+
+.shoubomv-container {
+    margin-top: 20px;
+    .shoubomv-header {
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .link {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #ccc;
+    }
+    .shoubomv-body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .shoubomv-item-box {
+        margin-bottom: 20px;
+        width: 49.5%;
+    }
+    .mv-cover {
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .info-mask {
+        padding-left: 10px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .mv-title {
+        font-size: 14px;
+        color: #000;
+    }
+}
