@@ -1,4 +1,4 @@
-本组件开发者：@daraluv   @任浩策(renhc729805143)
+本组件开发者：[daraluv](https://github.com/daraluv)   [任浩策(renhc729805143)](https://github.com/renhc729805143)
 
 1. 如需要公用组件，随时和大家协商开发
 2. 私有组件直接放在该目录下，所有私有组件的css样式直接写在style.scss中
