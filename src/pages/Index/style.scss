@@ -46,6 +46,25 @@
     }
 }
 
+.classes-container {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .classes-item-box {
+        width: 33.33%;
+        margin-bottom: 10px;
+        padding-left: 5%;
+        line-height: 30px;
+    }
+
+    .classes-icon {
+        font-size: 24px;
+        color: #31c27c;
+    }
+}
+
 .hotdiss-container {
     margin-top: 20px;
     .hotdiss-header {

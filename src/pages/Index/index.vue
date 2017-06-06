@@ -1,10 +1,11 @@
 <template>
 
 <div class="page-wrap">
-    <slider :pages="focus"></slider>
-    <album></album>
-    <hotdiss :disslist="hotdissList"></hotdiss>
-    <shoubomv :mvlist="shoubomv"></shoubomv>
+    <slider :pages="focus" />
+    <classes />
+    <album />
+    <hotdiss :disslist="hotdissList" />
+    <shoubomv :mvlist="shoubomv" />
 </div>
 
 
@@ -16,6 +17,7 @@ import slider from 'components/slider'
 import album from './album'
 import hotdiss from './hotdiss'
 import shoubomv from './shoubomv'
+import classes from './classes'
 
 export default {
     name: 'index',
@@ -28,7 +30,7 @@ export default {
             toplist: [] // 排行榜
         }
     },
-    components: { slider, album, hotdiss, shoubomv },
+    components: { slider, album, hotdiss, shoubomv, classes },
     computed: {
         counter () {
             return 20 + 30
