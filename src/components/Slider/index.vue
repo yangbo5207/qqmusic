@@ -48,6 +48,7 @@ const options = {
 
 const deviceWidth = document.body.clientWidth
 const styleTransform = getTransform()
+const ismobile = 'ontouchstart' in document
 
 let startX = 0
 let targetSourceX = 0
@@ -90,9 +91,13 @@ export default {
 
         target.style.width = target.children.length * deviceWidth + 'px'
 
-        target.addEventListener('touchstart', this.handlerMousedown, false)
-        target.addEventListener('touchmove', this.handlerMousemove, false)
-        target.addEventListener('touchend', this.handlerMouseup, false)
+        if (ismobile) {
+            target.addEventListener('touchstart', this.handlerMousedown, false)
+            target.addEventListener('touchmove', this.handlerMousemove, false)
+            target.addEventListener('touchend', this.handlerMouseup, false)
+        } else {
+            target.addEventListener('mousedown', this.handlerMousedown, false)
+        }
     },
     destory () {
         const target = this.$el.children[0]
@@ -105,16 +110,23 @@ export default {
             if (this.isAnimation) {
                 return
             }
+            event.preventDefault()
             console.log('start')
             this.isCanStart = true
-            startX = event.changedTouches[0].pageX
+            startX = ismobile ? event.changedTouches[0].pageX : event.clientX
+
+            if (!ismobile) {
+                document.addEventListener('mousemove', this.handlerMousemove, false)
+                document.addEventListener('mouseend')
+            }
         },
         handlerMousemove (event) {
             if (this.isAnimation || !this.isCanStart) {
                 return
             }
+            event.preventDefault()
             console.log('move')
-            const currentX = event.changedTouches[0].pageX
+            const currentX = ismobile ? event.changedTouches[0].pageX : event.clientX
             disX = currentX - startX
             const targetCurrentX = targetSourceX + disX
             this.$el.children[0].style[styleTransform] = `translate(${targetCurrentX}px, 0)`
