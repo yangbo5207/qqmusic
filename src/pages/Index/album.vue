@@ -4,7 +4,7 @@
     <div class="album-header">
         <div class="title">新歌速递</div>
         <router-link to="/album" class="link">
-            <span class="arrow"></span>
+            <icon type="arrow"></icon>
         </router-link>
     </div>
     <div class="album-body">
@@ -24,6 +24,7 @@
 
 <script>
 import * as request from 'utils/request'
+import icon from 'components/icon'
 
 export default {
     name: 'album',
@@ -32,6 +33,7 @@ export default {
             albumList: []
         }
     },
+    components: { icon },
     mounted () {
         request.getAlbumList({ cmd: 'get_album_info', pagesize: 6 }).then(resp => {
             this.albumList = resp.albumlist.map(item => {

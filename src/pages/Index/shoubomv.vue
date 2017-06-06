@@ -4,7 +4,7 @@
     <div class="shoubomv-header">
         <div class="title">首播MV</div>
         <router-link to="/mv" class="link">
-            <span class="arrow"></span>
+            <icon type="arrow"></icon>
         </router-link>
     </div>
     <div class="shoubomv-body">
@@ -24,10 +24,12 @@
 </template>
 
 <script>
+import icon from 'components/icon'
 
 export default {
     name: 'shoubomv',
-    props: ['mvlist']
+    props: ['mvlist'],
+    components: { icon }
 }
 
 </script>
