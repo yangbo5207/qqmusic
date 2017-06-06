@@ -5,9 +5,15 @@
 </template>
 
 <script>
+import * as request from 'utils/request'
 
 export default {
-    name: 'serach'
+    name: 'serach',
+    mounted () {
+        request.getHotSearchKeysmod().then(resp => {
+            console.log(resp)
+        })
+    }
 }
 
 </script>
