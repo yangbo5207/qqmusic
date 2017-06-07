@@ -1,0 +1,13 @@
+@import 'static/styles/color';
+
+.qqmusic-button {
+    margin: 6px 4px;
+    cursor: pointer;
+    line-height: 1.6;
+    padding: 4px 15px;
+    border: 1px solid $grey-5;
+    border-radius: 4px;
+    color: $grey-9;
+    transition: .2s;
+    position: relative;
+}
