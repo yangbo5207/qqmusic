@@ -1,8 +1,8 @@
 <template>
 
 <div class="sosobox-container">
-    <div class="input">
-        <input type="text">
+    <div class="search-input">
+        <input class="search-input-input" type="text" value="xxxx">
         <icon></icon>
     </div>
     <div class="cancel"></div>

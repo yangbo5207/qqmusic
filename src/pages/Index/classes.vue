@@ -1,7 +1,7 @@
 <template>
 
 <div class="classes-container">
-    <router-link :to="item.path" class="classes-item-box" v-for="item in classes">
+    <router-link :to="item.path" class="classes-item-box" v-for="(item, i) in classes" key="i">
         <icon class="classes-icon" :type="item.icontype" />
         {{ item.title }}
     </router-link>
