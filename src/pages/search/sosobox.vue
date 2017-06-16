@@ -2,9 +2,8 @@
 
 <div class="sosobox-container">
     <div class="search-input">
-        <input class="search-input-input" type="text" value="xxxx">
-        <icon></icon>
-        <qbutton icon="serach"></qbutton>
+        <input class="search-input-input" type="text" value="xxxx" />
+        <qbutton icontype="serach" type="primary">sss</qbutton>
     </div>
     <div class="cancel"></div>
 </div>

@@ -1,7 +1,7 @@
 <template>
 
 <button :type="htmlType" :class="classes" @click="clickHandler">
-    <icon v-if="icon" :type="icon" />
+    <icon v-if="icontype" :type="icontype" />
     <slot></slot>
 </button>
 
@@ -29,7 +29,7 @@ export default {
                 return isTheone(value, ['button', 'submit', 'reset'])
             }
         },
-        icon: String,
+        icontype: String,
         shape: {
             validator (value) {
                 return isTheone(value, ['circle', 'circle-outline'])

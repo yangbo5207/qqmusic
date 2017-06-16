@@ -1,13 +1,32 @@
 @import 'static/styles/color';
 
+$danger: $red-6;
+$primary: $blue-6;
+
 .qqmusic-button {
     margin: 6px 4px;
     cursor: pointer;
-    line-height: 1.6;
     padding: 4px 15px;
     border: 1px solid $grey-5;
     border-radius: 4px;
     color: $grey-9;
     transition: .2s;
     position: relative;
+
+    &-primary {
+        background-color: $primary;
+        color: $white;
+        border: 1px solid $primary;
+        &:after {
+            border: 0 solid $primary;
+        }
+        &:hover {
+            background-color: $blue-5;
+            border-color: $blue-5;
+        }
+        &:active {
+            background-color: $blue-7;
+            border-color: $blue-7;
+        }
+    }
 }
