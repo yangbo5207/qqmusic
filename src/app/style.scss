@@ -2,18 +2,19 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 50px;
     align-items: center;
-    border-bottom: 1px solid #EFEFEF;
+    background-color: #31c27c;
 
     a {
         height: 100%;
         line-height: 50px;
         padding: 0 5px;
-        &.active {
-            color: orange;
-            border-bottom: 2px solid orange
+        color: #eee;
+        &.router-link-active {
+            color: #FFF;
+            font-weight: bold;
         }
     }
 }

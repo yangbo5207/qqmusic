@@ -1,3 +1,26 @@
+.search-box-wrap {
+    background-color: #31c27c;
+    display: block;
+    padding: 1px;
+
+    .search-box {
+        margin: 5px;
+        height: 40px;
+        background-color: #2baa6d;
+        border-radius: 4px;
+        color: #FFF;
+        text-align: center;
+        line-height: 40px;
+
+        .search-icon {
+            font-size: 20px;
+            margin-right: 10px;
+            position: relative;
+            top: 2px;
+        }
+    }
+}
+
 .album-container {
     margin-top: 20px;
 
@@ -12,7 +35,9 @@
         display: block;
         width: 20px;
         height: 20px;
-        background-color: #ccc;
+        text-align: center;
+        line-height: 20px;
+        color: orange;
     }
 
     .album-body {
@@ -41,6 +66,25 @@
     .album-name {
         font-size: 14px;
         color: #000;
+    }
+}
+
+.classes-container {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .classes-item-box {
+        width: 33.33%;
+        margin-bottom: 10px;
+        padding-left: 5%;
+        line-height: 30px;
+    }
+
+    .classes-icon {
+        font-size: 24px;
+        color: #31c27c;
     }
 }
 
@@ -91,7 +135,9 @@
         display: block;
         width: 20px;
         height: 20px;
-        background-color: #ccc;
+        text-align: center;
+        line-height: 20px;
+        color: orange;
     }
     .shoubomv-body {
         display: flex;

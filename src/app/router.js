@@ -6,6 +6,11 @@ import Profile from 'pages/Profile'
 import Discover from 'pages/Discover'
 import Album from 'pages/Album'
 import Mv from 'pages/Mv'
+import Classify from 'pages/Classify'
+import Rank from 'pages/Rank'
+import Singer from 'pages/Singer'
+import Diantai from 'pages/Diantai'
+import search from 'pages/search'
 
 Vue.use(Router)
 
@@ -36,6 +41,26 @@ const router = new Router({
         path: '/mv',
         name: 'mv',
         component: Mv
+    }, {
+        path: '/classify',
+        name: 'classify',
+        component: Classify
+    }, {
+        path: '/rank',
+        name: 'rank',
+        component: Rank
+    }, {
+        path: '/singer',
+        name: 'singer',
+        component: Singer
+    }, {
+        path: '/Diantai',
+        name: 'diantai',
+        component: Diantai
+    }, {
+        path: '/search',
+        name: 'search',
+        component: search
     }]
 })
 

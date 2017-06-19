@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 317189 */
+  src: url('//at.alicdn.com/t/font_dzxj9c9dirrizfr.eot');
+  src: url('//at.alicdn.com/t/font_dzxj9c9dirrizfr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_dzxj9c9dirrizfr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_dzxj9c9dirrizfr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_dzxj9c9dirrizfr.svg#iconfont') format('svg');
+}
+
+.qqmusic-icon {
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+    vertical-align: baseline;
+    font-family: iconfont;
+    color: inherit;
+}
+
+.qqmusic-icon {
+    &-search:before { content: '\e602' };
+    &-loading:before { content: '\e611'};
+    &-arrow-left:before { content: '\e60d'};
+    &-headset:before { content: '\e6ce'};
+    &-camera:before { content: '\e6c2'};
+    &-play:before { content: '\e601'};
+    &-arrow:before { content: '\e8f4'};
+    &-singer:before { content: '\e674'};
+    &-rank:before { content: '\e600'};
+    &-classify:before { content: '\e612'};
+    &-album:before { content: '\e60e'};
+    &-diantai:before { content: '\e6f4'};
+    &-mv:before { content: '\e61a'};
+
+    &-spin {
+        animation-name: qqmusic-rotate;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes qqmusic-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
