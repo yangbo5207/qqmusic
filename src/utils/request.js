@@ -112,3 +112,28 @@ export const getAlbumList = (options) => {
         }
     })
 }
+
+const mvlistDefaultConfig = {
+    type: 1,
+    pagecount: 5,
+    taglist: 1,
+    year: 0,
+    area: 0,
+    tag: 0,
+    pageno: 0
+}
+export const getMvlist = (options) => {
+    options = { ...mvlistDefaultConfig, ...options }
+    return jsonp(API.mvList, {
+        params: {
+            jsonpCallback: 'getMvlist',
+            type: options.type,
+            pagecount: options.pagecount,
+            taglist: options.taglist,
+            year: options.year,
+            area: options.area,
+            tag: options.tag,
+            pageno: options.pageno
+        }
+    })
+}
