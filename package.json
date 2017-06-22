@@ -11,8 +11,10 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "json-loader": "^0.5.4",
     "jsonp": "^0.2.1",
     "lodash": "^4.17.4",
+    "shelljs": "^0.7.8",
     "vue": "^2.2.6",
     "vue-router": "^2.3.1"
   },

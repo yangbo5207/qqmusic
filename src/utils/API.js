@@ -16,5 +16,6 @@ export const sosoSmartbox = `${qqHost}/splcloud/fcgi-bin/smartbox_new.fcg`
 // 搜索结果
 export const soso = `${qqHost}/soso/fcgi-bin/client_search_cp`
 
-//MV列表
+// MV列表
 export const mvList = `${qqHost}/v8/fcg-bin/getmv_by_tag`
+

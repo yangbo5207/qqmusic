@@ -1,0 +1,609 @@
+{
+  "mvlist": [
+    {
+      "listennum": 360,
+      "mv_id": 1319559,
+      "mvscore": 0,
+      "mvtitle": "上海三月",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/f00247qvy9p_496_280/0.jpg",
+      "publictime": "2017-6-19",
+      "singerid": 155147,
+      "singermid": "001B26VQ39vxHS",
+      "singername": "戴荃",
+      "singers": [
+        {
+          "id": 155147,
+          "mid": "001B26VQ39vxHS",
+          "name": "戴荃"
+        }
+      ],
+      "vid": "f00247qvy9p"
+    },
+    {
+      "listennum": 97,
+      "mv_id": 1320060,
+      "mvscore": 0,
+      "mvtitle": "No Fear In My Heart (《冈仁波齐》电影主题曲)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/q0024bg2hl7_496_280/0.jpg",
+      "publictime": "2017-6-19",
+      "singerid": 4442,
+      "singermid": "000mLAT42CFWNa",
+      "singername": "朴树",
+      "singers": [
+        {
+          "id": 4442,
+          "mid": "000mLAT42CFWNa",
+          "name": "朴树"
+        }
+      ],
+      "vid": "q0024bg2hl7"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320065,
+      "mvscore": 0,
+      "mvtitle": "テトテとテントテン (Mix Ver.) (手与手点与点)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/p0024r8f0o5_496_280/0.jpg",
+      "publictime": "2017-6-19",
+      "singerid": 11632,
+      "singermid": "0042dND736sTEr",
+      "singername": "GReeeeN(グリーン)",
+      "singers": [
+        {
+          "id": 11632,
+          "mid": "0042dND736sTEr",
+          "name": "GReeeeN(グリーン)"
+        },
+        {
+          "id": 951398,
+          "mid": "003WmuWK10VYBe",
+          "name": "whiteeeen(ホワイティーン)"
+        }
+      ],
+      "vid": "p0024r8f0o5"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320297,
+      "mvscore": 0,
+      "mvtitle": "너야 (预告版)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/w00245hwttd_496_280/0.jpg",
+      "publictime": "2017-6-19",
+      "singerid": 58128,
+      "singermid": "003tXp9x3J1Muh",
+      "singername": "임슬옹(任瑟雍)",
+      "singers": [
+        {
+          "id": 58128,
+          "mid": "003tXp9x3J1Muh",
+          "name": "임슬옹(任瑟雍)"
+        },
+        {
+          "id": 55666,
+          "mid": "003MTkWQ32WK0Z",
+          "name": "빈지노(Beenzino)"
+        }
+      ],
+      "vid": "w00245hwttd"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320310,
+      "mvscore": 0,
+      "mvtitle": "我们",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/j0024b6jdu4_496_280/0.jpg",
+      "publictime": "2017-6-19",
+      "singerid": 1505370,
+      "singermid": "000Ceqqa45i0Ba",
+      "singername": "杨清柠",
+      "singers": [
+        {
+          "id": 1505370,
+          "mid": "000Ceqqa45i0Ba",
+          "name": "杨清柠"
+        },
+        {
+          "id": 1505372,
+          "mid": "000X6wC03vkM18",
+          "name": "王乐乐"
+        }
+      ],
+      "vid": "j0024b6jdu4"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320338,
+      "mvscore": 0,
+      "mvtitle": "空 (《悟空传》电影插曲)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/e0515az5whn_496_280/0.jpg",
+      "publictime": "2017-6-19",
+      "singerid": 4362,
+      "singermid": "000f7diK2mDS3Z",
+      "singername": "林志炫",
+      "singers": [
+        {
+          "id": 4362,
+          "mid": "000f7diK2mDS3Z",
+          "name": "林志炫"
+        }
+      ],
+      "vid": "e0515az5whn"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320339,
+      "mvscore": 0,
+      "mvtitle": "剩",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/f0024vlkev1_496_280/0.jpg",
+      "publictime": "2017-6-19",
+      "singerid": 1397630,
+      "singermid": "002tox733sQMTg",
+      "singername": "林羡淇",
+      "singers": [
+        {
+          "id": 1397630,
+          "mid": "002tox733sQMTg",
+          "name": "林羡淇"
+        }
+      ],
+      "vid": "f0024vlkev1"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320291,
+      "mvscore": 0,
+      "mvtitle": "Beyond The Matrix (Live At Graspop Metal Meeting 2017)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/z0024jgohsl_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 20942,
+      "singermid": "001nxS6V3qBNCm",
+      "singername": "Epica",
+      "singers": [
+        {
+          "id": 20942,
+          "mid": "001nxS6V3qBNCm",
+          "name": "Epica"
+        }
+      ],
+      "vid": "z0024jgohsl"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320292,
+      "mvscore": 0,
+      "mvtitle": "Consign To Oblivion (Live At Graspop Metal Meeting 2017)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/m0024za9dtp_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 20942,
+      "singermid": "001nxS6V3qBNCm",
+      "singername": "Epica",
+      "singers": [
+        {
+          "id": 20942,
+          "mid": "001nxS6V3qBNCm",
+          "name": "Epica"
+        }
+      ],
+      "vid": "m0024za9dtp"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320295,
+      "mvscore": 0,
+      "mvtitle": "Bad Liar (翻唱版)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/k0024ajto3r_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 27046,
+      "singermid": "0015tIxQ2nuco7",
+      "singername": "Tiffany Alvord(蒂芬妮·沃德)",
+      "singers": [
+        {
+          "id": 27046,
+          "mid": "0015tIxQ2nuco7",
+          "name": "Tiffany Alvord(蒂芬妮·沃德)"
+        }
+      ],
+      "vid": "k0024ajto3r"
+    },
+    {
+      "listennum": 2,
+      "mv_id": 1320299,
+      "mvscore": 0,
+      "mvtitle": "FIVE (오하영 Ver.)(预告版)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/a00243r2d66_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 27090,
+      "singermid": "002ACw3Q2Jwd5j",
+      "singername": "에이핑크(Apink)",
+      "singers": [
+        {
+          "id": 27090,
+          "mid": "002ACw3Q2Jwd5j",
+          "name": "에이핑크(Apink)"
+        }
+      ],
+      "vid": "a00243r2d66"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320305,
+      "mvscore": 0,
+      "mvtitle": "Mr.애매모호 (练习室舞蹈版) (Mr.暧昧模糊)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/w0024e1dqx9_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 176744,
+      "singermid": "001p5MSX07YGwi",
+      "singername": "MAMAMOO(마마무)",
+      "singers": [
+        {
+          "id": 176744,
+          "mid": "001p5MSX07YGwi",
+          "name": "MAMAMOO(마마무)"
+        }
+      ],
+      "vid": "w0024e1dqx9"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320311,
+      "mvscore": 0,
+      "mvtitle": "Cry For The Moon (Live At Graspop Metal Meeting 2017)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/j00245orpgg_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 20942,
+      "singermid": "001nxS6V3qBNCm",
+      "singername": "Epica",
+      "singers": [
+        {
+          "id": 20942,
+          "mid": "001nxS6V3qBNCm",
+          "name": "Epica"
+        }
+      ],
+      "vid": "j00245orpgg"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320313,
+      "mvscore": 0,
+      "mvtitle": "Sancta Terra (Live At Graspop Metal Meeting 2017)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/y0024mpndoy_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 20942,
+      "singermid": "001nxS6V3qBNCm",
+      "singername": "Epica",
+      "singers": [
+        {
+          "id": 20942,
+          "mid": "001nxS6V3qBNCm",
+          "name": "Epica"
+        }
+      ],
+      "vid": "y0024mpndoy"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320326,
+      "mvscore": 0,
+      "mvtitle": "家在灌云",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/e0024f1jtmh_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 1483521,
+      "singermid": "002cDqOQ2d4fxJ",
+      "singername": "何杨州",
+      "singers": [
+        {
+          "id": 1483521,
+          "mid": "002cDqOQ2d4fxJ",
+          "name": "何杨州"
+        }
+      ],
+      "vid": "e0024f1jtmh"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320327,
+      "mvscore": 0,
+      "mvtitle": "越唱越强 (超强音浪 第2季 第12期)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/t0024yzbfe4_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 118,
+      "singermid": "001uXFgt1kpLyI",
+      "singername": "容祖儿",
+      "singers": [
+        {
+          "id": 118,
+          "mid": "001uXFgt1kpLyI",
+          "name": "容祖儿"
+        }
+      ],
+      "vid": "t0024yzbfe4"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320328,
+      "mvscore": 0,
+      "mvtitle": "挥着翅膀的女孩 (超强音浪 第2季 第12期)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/n0024vrb0sr_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 118,
+      "singermid": "001uXFgt1kpLyI",
+      "singername": "容祖儿",
+      "singers": [
+        {
+          "id": 118,
+          "mid": "001uXFgt1kpLyI",
+          "name": "容祖儿"
+        }
+      ],
+      "vid": "n0024vrb0sr"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320329,
+      "mvscore": 0,
+      "mvtitle": "小小 (超强音浪 第2季 第12期)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/d0024gc46j5_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 118,
+      "singermid": "001uXFgt1kpLyI",
+      "singername": "容祖儿",
+      "singers": [
+        {
+          "id": 118,
+          "mid": "001uXFgt1kpLyI",
+          "name": "容祖儿"
+        }
+      ],
+      "vid": "d0024gc46j5"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320331,
+      "mvscore": 0,
+      "mvtitle": "青春舞曲 (音乐大师课第三季 第8期)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/s002493oq3q_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 4423,
+      "singermid": "000vYUqh1SqjQQ",
+      "singername": "华语群星",
+      "singers": [
+        {
+          "id": 4423,
+          "mid": "000vYUqh1SqjQQ",
+          "name": "华语群星"
+        }
+      ],
+      "vid": "s002493oq3q"
+    },
+    {
+      "listennum": 0,
+      "mv_id": 1320333,
+      "mvscore": 0,
+      "mvtitle": "青苹果乐园 (音乐大师课第三季 第8期)",
+      "picurl": "http://puui.qpic.cn/qqvideo_ori/0/d0024qnonf8_496_280/0.jpg",
+      "publictime": "2017-6-18",
+      "singerid": 1471728,
+      "singermid": "003Xl3PM0VNIFs",
+      "singername": "凌岑",
+      "singers": [
+        {
+          "id": 1471728,
+          "mid": "003Xl3PM0VNIFs",
+          "name": "凌岑"
+        },
+        {
+          "id": 1116040,
+          "mid": "001rcmAx3fRpIN",
+          "name": "宋佳霖"
+        }
+      ],
+      "vid": "d0024qnonf8"
+    }
+  ],
+  "sum": 1114926,
+  "taglist": {
+    "area": [
+      {
+        "id": 0,
+        "title": "全部"
+      },
+      {
+        "id": 1,
+        "title": "内地"
+      },
+      {
+        "id": 2,
+        "title": "港台"
+      },
+      {
+        "id": 3,
+        "title": "欧美"
+      },
+      {
+        "id": 4,
+        "title": "韩国"
+      },
+      {
+        "id": 5,
+        "title": "日本"
+      },
+      {
+        "id": 6,
+        "title": "其他"
+      }
+    ],
+    "tag": [
+      {
+        "id": 0,
+        "title": "全部"
+      },
+      {
+        "id": 2,
+        "title": "官方版"
+      },
+      {
+        "id": 3,
+        "title": "影视原声"
+      },
+      {
+        "id": 9,
+        "title": "舞蹈"
+      },
+      {
+        "id": 10,
+        "title": "混音版"
+      },
+      {
+        "id": 11,
+        "title": "KTV版"
+      },
+      {
+        "id": 12,
+        "title": "音乐电影"
+      },
+      {
+        "id": 13,
+        "title": "演唱会"
+      },
+      {
+        "id": 14,
+        "title": "颁奖礼"
+      },
+      {
+        "id": 16,
+        "title": "动漫"
+      },
+      {
+        "id": 23,
+        "title": "翻制版"
+      },
+      {
+        "id": 26,
+        "title": "预告版"
+      },
+      {
+        "id": 27,
+        "title": "花絮版"
+      },
+      {
+        "id": 28,
+        "title": "游戏"
+      },
+      {
+        "id": 29,
+        "title": "广告"
+      },
+      {
+        "id": 40,
+        "title": "创意"
+      },
+      {
+        "id": 41,
+        "title": "搞笑"
+      },
+      {
+        "id": 43,
+        "title": "制服"
+      },
+      {
+        "id": 45,
+        "title": "一镜到底"
+      },
+      {
+        "id": 46,
+        "title": "迷幻"
+      },
+      {
+        "id": 47,
+        "title": "重口味"
+      },
+      {
+        "id": 48,
+        "title": "鬼畜"
+      },
+      {
+        "id": 49,
+        "title": "穿越"
+      },
+      {
+        "id": 50,
+        "title": "剧情"
+      },
+      {
+        "id": 51,
+        "title": "清新"
+      },
+      {
+        "id": 52,
+        "title": "民族风"
+      },
+      {
+        "id": 53,
+        "title": "弹奏"
+      },
+      {
+        "id": 54,
+        "title": "景色"
+      },
+      {
+        "id": 55,
+        "title": "杀马特"
+      },
+      {
+        "id": 56,
+        "title": "戏曲"
+      },
+      {
+        "id": 57,
+        "title": "儿歌"
+      }
+    ],
+    "year": [
+      {
+        "id": 0,
+        "title": "全部"
+      },
+      {
+        "id": 11,
+        "title": "2017"
+      },
+      {
+        "id": 8,
+        "title": "2016"
+      },
+      {
+        "id": 7,
+        "title": "2015"
+      },
+      {
+        "id": 1,
+        "title": "2014"
+      },
+      {
+        "id": 2,
+        "title": "2013"
+      },
+      {
+        "id": 3,
+        "title": "2012"
+      },
+      {
+        "id": 4,
+        "title": "2011"
+      },
+      {
+        "id": 9,
+        "title": "2010"
+      },
+      {
+        "id": 5,
+        "title": "00年代"
+      },
+      {
+        "id": 6,
+        "title": "其他"
+      }
+    ]
+  }
+}
