@@ -81,7 +81,7 @@ export const getRecomList = () => {
 /**
  * 新歌速递列表
  */
-const defaultConfig = {
+export const defaultConfig = {
     cmd: 'firstpage',
     page: 0,
     pagesize: 20,
@@ -94,6 +94,7 @@ const defaultConfig = {
     sort: 1,
     a: 0
 }
+
 export const getAlbumList = (options) => {
     options = { ...defaultConfig, ...options }
     return jsonp(API.albumList, {
