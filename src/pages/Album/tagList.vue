@@ -5,7 +5,7 @@
         <h3 class="tag-tit">语种</h3>
         <a class="tag-item" :class="{ tagselect: activeB == index }" v-for="(item,index) in tagname.language" :key="{index}"  @click="selectedB(index)">
             {{item.name}} 
-        </a>
+        </a> 
     </div>           
     <div class="tag-list">
         <h3 class="tag-tit">流派</h3>
